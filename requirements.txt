@@ -1,0 +1,14 @@
+Django Version Install=> pip install django==2.1
+Start a django project=> django-admin startproject pyshop .
+Server run=> python manage.py runserver
+Create package product=> python manage.py startapp products
+Database Table Creation for products model=> python manage.py makemigrations
+Run the code to Create a table=> python manage.py migrate
+Adminstrative Panel=> http://127.0.0.1:8000/admin/login/?next=/admin/
+Create SuperUser=> python manage.py createsuperuser
+My SuperUser Username= admin
+My SuperUser Password= 1-9
+Simple Command to add a module to the admin area=> admin.site.register(Product) #Adding the product module to the admin panel provided by Django
+<!--{%This is called Template Tags Marker %} -->
+<!--{{Double means evaluate the template}} -->
+Base Template fix.
